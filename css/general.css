@@ -23,11 +23,7 @@ html {
     
     font-family: Futura, Candara, sans-serif;
     
-    height: 100%;
-    background-image: url(../images/watertile.jpg);
-    background-size: auto;
-    background-repeat: 100%;
-    background-position: top center;
+    background-color: black;
 }
 
 img {
@@ -73,6 +69,14 @@ h1 + p {
 p {
     line-height: 1.5rem;
     margin: 0 0 1.5rem;
+}
+
+.dropcap:first-letter {
+    font-size: 5rem;
+    font-weight: bold;
+    float: left;
+    margin: 1.7rem .5rem 1rem 0;
+    color: blue;
 }
     
 figure {
