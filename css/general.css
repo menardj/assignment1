@@ -43,9 +43,9 @@ body {
 }
 
 .logo {
-    height: 3.5rem;
+    height: 3rem;
     width: auto;
-    margin: .5rem auto;
+    margin: auto auto;
 }
 
 article {
@@ -79,6 +79,39 @@ p {
     color: blue;
 }
     
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+
+blockquote span {
+    font-size: 1rem;
+    float: right;
+    margin: .5rem 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 4rem;
+    color: blue;
+    float: left;
+    margin: .5rem 0 0 -2rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 4rem;
+    position: absolute;
+    color: blue;
+    margin: .75rem 0 0;
+}
+
 figure {
     margin: 0 auto 1.5rem;
     width: 100%;
