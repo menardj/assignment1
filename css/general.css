@@ -43,6 +43,7 @@ body {
 }
 
 .logo {
+    align-content: center;
     height: auto;
     width: auto;
     margin: .25rem auto;
