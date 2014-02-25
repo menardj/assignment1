@@ -38,7 +38,7 @@ body {
 }
 
 .masthead {
-    background-color: #0000FF;
+    background-color: #01DFD7;
     overflow: hidden;
 }
 
@@ -76,7 +76,7 @@ p {
     font-weight: bold;
     float: left;
     margin: 1.7rem .5rem 1rem 0;
-    color: blue;
+    color: #01DFD7;
 }
     
 blockquote {
@@ -99,7 +99,7 @@ blockquote span {
 blockquote p:before {
     content: "“";
     font-size: 4rem;
-    color: blue;
+    color: #01DFD7;
     float: left;
     margin: .5rem 0 0 -2rem;
 }
@@ -108,7 +108,7 @@ blockquote p:after {
     content: "”";
     font-size: 4rem;
     position: absolute;
-    color: blue;
+    color: #01DFD7;
     margin: .75rem 0 0;
 }
 
@@ -117,13 +117,19 @@ figure {
     width: 100%;
 }
 
+figure img {
+    box-shadow: .2rem .4rem .2rem .2rem rgba(1, 233, 215, .75);
+    border: solid .25rem black;
+    border-radius: 1rem;
+}
+
 figcaption {
     font-size: .75rem;
-    margin: .5rem 0;
+    margin: .75rem .5rem;
 }
 
 footer {
-    background-color: #00BFFF;
+    background-color: #01DFD7;
 }
 
 footer p {
