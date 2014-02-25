@@ -135,9 +135,13 @@ footer {
 
 footer p {
     color: black;
-    margin: .5rem 5% 0rem;
+    margin: .5rem 5% -0.5rem;
     font-size: .75rem;
-    line-height: 2.25rem
+    line-height: 1.5rem;
+}
+
+embed {
+    margin: 0rem 5% 0rem;
 }
     
 footer a {
