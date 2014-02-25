@@ -43,7 +43,7 @@ body {
 }
 
 .logo {
-    height: 2.5rem;
+    height: auto;
     width: auto;
     margin: .25rem auto;
 }
